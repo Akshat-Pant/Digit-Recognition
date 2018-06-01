@@ -21,3 +21,4 @@ The network architecture is summarized below:
 4.	Next is a layer that converts the 2D matrix data to a vector called Flatten. It allows the output to be processed by standard fully connected layers.
 5.	Next a fully connected layer with 128 neurons and rectifier activation function.
 6.	Finally, the output layer has 10 neurons for the 10 classes and a softmax activation function to output probability-like predictions for each class.
+I played around with the hyperparameters of this model and ran it with different configurations.
